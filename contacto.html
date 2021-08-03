@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contacto</title>
+
+      <link rel="stylesheet" href="CSS/styleless.css"/>
+
+  </head>
+  <body background="assets/imagenes/banner_info.jpg" style="width: 100%;">
+    <nav class="navegadores">
+      <a href="/" class="navegador" data-title="Conoce la historia de Los Vengadores">Inicio</a>
+      <a href="/personajes.html" class="navegador" data-title="Conoce a los superhéroes que conforman a este grupo">Personajes</a>
+      <a href="/comics.html" class="navegador" data-title="Descubre historias inolvidables">Comics</a>
+      <a href="/contacto.html" class="navegador" data-title="Habla con nosotros">Contacto</a>
+      <a href="/solicitar_info.html" class="navegador" data-title="¿Tienes una duda o sugerencia?">Solicitar Información</a>
+    </nav>
+    <h1><strong>Contacto</strong></h1>
+    <h3>Por favor, ingrese los datos solicitados</h3>
+
+    <form action="/acreditacion.html" method="GET" class="recuadro">
+      <label for="name">Nombre</label> <br>
+      <input type="text" id="name" name="name" placeholder="Pepé" class="escribir" required/> <br>
+        
+      <label for="lastname">Apellido</label> <br>
+      <input type="text" id="lastname" name="lastname" placeholder="Gonzales" class="escribir" required/> <br>
+
+      <label for="born">Fecha de nacimiento</label> <br>
+      <input type="date" id="born" name="born" class="escribir"/> <br>
+ 
+      <label for="tel">Número de teléfono</label> <br>
+      <input type="tel" id="tel" name="tel" placeholder="+54 12345678" class="escribir"/> <br>
+
+      <label for="gmail">Gmail</label> <br>
+      <input type="email" id="gmail" name="gmail" placeholder="ejemplo@ej.com" class="escribir" required/> <br>
+      
+      <label for="password" name="password">Contraseña</label> <br>
+      <input type="password" id="password" class="escribir" required/> <br>
+
+      <div class="registro">
+        <input type="reset" class="boton_iz"/> 
+        <input type="submit" value="Enviar información" class="boton_de"/>
+      </div>
+    </form>
+  </body>
+  
+  <footer>
+    Noticias de Córdoba - Articulo del <time>28/5/2021 11:49</time>
+  </footer>
+</html>

@@ -1,0 +1,163 @@
+h1{
+    color: rgb(46, 46, 68);
+    text-align: center;
+    font-size: 60px;
+}
+h2{
+    color: white;
+    background-color: rgb(46, 46, 68);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h3{
+    color: white;
+    background-color: rgb(46, 46, 68);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    box-shadow: 7px 7px 12px grey;
+}
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navegadores{
+    background-color: rgb(46, 46, 68); 
+    height: 25px; 
+    text-align: center; 
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.title{
+    display: none;
+}
+footer{
+    background-color: rgb(46, 46, 68);
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+div{
+    display: flex;
+}
+nav.indice{
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: rgb(46, 46, 68);
+    border-style: solid;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: whitesmoke;
+}
+.navegador{
+    text-decoration: none;
+    color: white
+}
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+iframe{
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(46, 46, 68);
+    box-shadow: 7px 7px 12px grey;
+}
+.comics_imgs{
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(46, 46, 68);
+    width: 300px;
+    height: 450px;
+    box-shadow: 7px 7px 12px grey;
+    margin-bottom: 20px;
+}
+input{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+label{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+.escribir{
+    margin-left: auto;
+    margin-right: auto;
+}
+.recuadro{
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: rgb(46, 46, 68);
+    border-style: solid;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: whitesmoke;
+}
+.comics_tabla{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.registro{
+    display: flex;
+}
+.boton_iz{
+    margin-left: auto;
+    margin-right: 0px;
+}
+.boton_de{
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+[data-title]:after {
+    content: attr(data-title);
+    background-color: rgb(180, 9, 9);
+    color: white;
+    font-size: 14px;
+    font-family: Raleway;
+    position: absolute;
+    padding: 5px 20px;
+    bottom: -1.6em;
+    left: 100%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid rgb(245, 245, 245);
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 6px;
+    
+}
+[data-title] {
+    position: relative;
+}
